@@ -1,0 +1,25 @@
+@import 'app';
+@import 'animations/animations';
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --clr-main-card: #277fb0;
+  --clr-main-card-font: #fff;
+  --clr-main-card-info-box: #4ca6d9;
+  --clr-main-card-cta: #de2e60;
+  --clr-main-card-cta-hover: #d6154c;
+  --clr-paragraph: #dbdbdb;
+}
+
+html {
+  font-size: 10px;
+  font-family: 'Mukta', sans-serif;
+  scroll-behavior: smooth;
+}
